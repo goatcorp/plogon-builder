@@ -1,5 +1,10 @@
-Cross compilation with MSVC on Linux
-====================================
+# Plogon Builder
+
+This repo contains build files for the docker image used for Plogon builds. It contains the .NET build tools and MSVC running under WINE.
+
+MSVC support is based on mstorsjo's [msvc-wine](https://github.com/mstorsjo/msvc-wine). Please check the original readme below to see how to use it.
+
+## Cross compilation with MSVC on Linux
 
 This is a reproducible Dockerfile for cross compiling with MSVC on Linux,
 usable as base image for CI style setups.
